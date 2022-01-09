@@ -2,7 +2,7 @@ pipeline {
 
   environment {
     PROJECT = "dev-pract"
-    APP_NAME = "gceme"
+    APP_NAME = "gout"
     FE_SVC_NAME = "${APP_NAME}-frontend"
     CLUSTER = "project-1"
     CLUSTER_ZONE = "us-central1-c"
