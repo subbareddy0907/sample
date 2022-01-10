@@ -1,10 +1,10 @@
 pipeline {
 
   environment {
-    PROJECT = "dev-pract"
-    APP_NAME = "gout"
+    PROJECT = "focus-tree-329108"
+    APP_NAME = "gouth"
     FE_SVC_NAME = "${APP_NAME}-frontend"
-    CLUSTER = "project-1"
+    CLUSTER = "false"
     CLUSTER_ZONE = "us-central1-c"
     IMAGE_TAG = "gcr.io/${PROJECT}/${APP_NAME}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
     JENKINS_CRED = "${PROJECT}"
